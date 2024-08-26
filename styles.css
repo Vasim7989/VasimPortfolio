@@ -100,19 +100,40 @@ h1, h2 {
     color: #7f8c8d;
 }
 
-#certifications ul {
-    list-style: none;
-    padding: 0;
+#certifications {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-#certifications ul li {
-    background-color: #3498db;
-    color: #ffffff;
-    padding: 10px;
-    margin: 8px 0;
-    border-radius: 6px;
-    font-weight: 500;
+.cert-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+.certificate {
+    flex: 1 1 45%;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.certificate p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 
 form label {
     display: block;
